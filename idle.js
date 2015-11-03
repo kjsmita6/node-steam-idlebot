@@ -25,14 +25,14 @@ ChildBot.prototype._onLogOnResponse = function(res) {
 	}
 	else {
 		this.logger.warn('EResult for logon: ' + res.eresult);
-        if(res.eresult === 63) {
-            this.logger.warn('Please provide the steamguard code as config option "guardCode" sent to your email at ' + res.email_domain);
-            process.exit(63);
-        }
-        else if(res.eresult === 65) {
-        	this.logger.warn('Please remove your guardCode option (wrong code)');
-        	process.exit(65);
-        }
+	        if(res.eresult === 63) {
+	            this.logger.warn('Please provide the steamguard code as config option "guardCode" sent to your email at ' + res.email_domain);
+	            process.exit(63);
+	        }
+	        else if(res.eresult === 65) {
+	        	this.logger.warn('Please remove your guardCode option (wrong code)');
+	        	process.exit(65);
+	        }
 	}
 }
 
