@@ -1,6 +1,9 @@
 # node-steam-idlebot
 A bot that idles games in Steam
 
+# Installation
+`npm install steam-idlebot`
+
 # Setup
 Assuming that you have Node.js version greater than 4.0.0, run install.bat to install the dependencies. Then, edit `bot.js` and add the information. The information can be as follows:
 
