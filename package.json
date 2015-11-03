@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "steam-parentbot": "^1.3.2"
+  },
+  "name": "steam-idlebot",
+  "version": "0.0.1",
+  "description": "A bot that idles games in Steam",
+  "main": "idle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonbanshee/node-steam-idlebot.git"
+  },
+  "keywords": [
+    "steam",
+    "idle"
+  ],
+  "author": "Kyle Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragonbanshee/node-steam-idlebot/issues"
+  },
+  "homepage": "https://github.com/dragonbanshee/node-steam-idlebot#readme",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "steam-parentbot": "^1.3.2"
+  }
+}
